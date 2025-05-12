@@ -153,6 +153,3 @@ GitHub Actions
     branches: [ "main" ]
 
   ```
-## Authors
-
-- thomasjoseph@jiitak.com
