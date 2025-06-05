@@ -1,6 +1,6 @@
 # Terraform Azure Infrastructure
 
-This repository contains Terraform code to build AWS infrastructure for three environments: Development (Dev), Quality Assurance (QA), and Production (Prod). The directory structure is organized as follows:
+This repository contains Terraform code to build Azure infrastructure for three environments: Development (Dev), Quality Assurance (QA), and Production (Prod). The directory structure is organized as follows:
 
 ```
 terraform-azure-infrastructure/        
@@ -40,7 +40,7 @@ terraform-azure-infrastructure/
     ├── StorageAccounts/
     ├── VirtualMachine/
     ├── VirtualNetwork/
-    ├──  Workspace/
+    ├── Workspace/
 ```
 
 Each environment folder (`dev`, `qa`, `prod`) contains Terraform configuration files (`main.tf`, `output.tf`, `provider.tf`, `terraform.tfvars`, `variables.tf`) specific to that environment. Similarly, the `modules` directory contains modules for various Azure services, each with its own `main.tf`, `variable.tf`, and `output.tf`.
